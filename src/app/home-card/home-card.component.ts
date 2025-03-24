@@ -3,7 +3,7 @@ import { CommonModule } from "@angular/common";
 //import { RouterLink } from "@angular/router";
 import { LucideAngularModule, WavesLadder, Bed, Bath, MapPin, Heart } from "lucide-angular";
 
-import { Home } from "../../models/home";
+import { Home } from "../models/home";
 
 /**
  * Component for displaying a single home card
