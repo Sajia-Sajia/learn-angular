@@ -1,6 +1,6 @@
 import { Component, Input, Output, EventEmitter } from "@angular/core";
 import { CommonModule } from "@angular/common";
-import { RouterLink } from "@angular/router";
+//import { RouterLink } from "@angular/router";
 import { LucideAngularModule, WavesLadder, Bed, Bath, MapPin, Heart } from "lucide-angular";
 
 import { Home } from "../../models/home";
@@ -12,7 +12,7 @@ import { Home } from "../../models/home";
 @Component({
   selector: "app-home-card",
   standalone: true,
-  imports: [CommonModule, RouterLink, LucideAngularModule],
+  imports: [CommonModule, LucideAngularModule],
   templateUrl: "./home-card.component.html",
   styleUrls: ["./home-card.component.css"],
 })

@@ -116,4 +116,9 @@ export class HomeListComponent implements OnInit {
       console.error("Error saving favorites to localStorage:", error);
     }
   }
+  refreshHomes() {
+    this.loadHomes();
+  }
 }
+
+  
