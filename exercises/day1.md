@@ -43,7 +43,7 @@ npm run server
 This will start a mock REST API server on http://localhost:3000
 
 ### 4. Test the JSON Server
-
+npm run server
 Open your browser and navigate to:
 
 ```
@@ -55,9 +55,11 @@ You should see a JSON response with a list of homes.
 ## Creating Your First Component
 
 ### 1. Generate the Home Card Component
+## ng generate component components/home-card  --standalone
 
 ```bash
-ng generate component components/home-card
+ng generate component components/home-card 
+
 ```
 
 This creates:
