@@ -5,8 +5,8 @@ import { PaginationComponent } from "../pagination/pagination.component";
 @Component({
   selector: "app-homes-grid",
   imports: [HomeCardComponent, PaginationComponent],
-  templateUrl: "./home-grid.component.html",
-  styleUrl: "./home-grid.component.css",
+  templateUrl: "./homes-grid.component.html",
+  styleUrl: "./homes-grid.component.css",
 })
 export class HomesGridComponent {
   homeService = inject(HomeService);

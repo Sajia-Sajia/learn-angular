@@ -6,10 +6,10 @@ import { Home } from "../models/home";
 @Component({
   selector: "app-favorite-homes",
   imports: [HomeCardComponent],
-  templateUrl: "./favourite-home.component.html",
-  styleUrl: "./favourite-home.component.css",
+  templateUrl: "./favorite-homes.component.html",
+  styleUrl: "./favorite-homes.component.css",
 })
-export class FavouriteHomeComponent {
+export class FavoriteHomesComponent {
   homeService = inject(HomeService);
   favoriteHomes = this.homeService.favoritesHomes;
 }

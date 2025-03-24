@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HomeGridComponent } from './home-grid.component';
+import { HomesGridComponent } from './homes-grid.component';
 
-describe('HomeGridComponent', () => {
-  let component: HomeGridComponent;
-  let fixture: ComponentFixture<HomeGridComponent>;
+describe('HomesGridComponent', () => {
+  let component: HomesGridComponent;
+  let fixture: ComponentFixture<HomesGridComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HomeGridComponent]
+      imports: [HomesGridComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HomeGridComponent);
+    fixture = TestBed.createComponent(HomesGridComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

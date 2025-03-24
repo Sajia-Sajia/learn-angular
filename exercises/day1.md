@@ -91,7 +91,8 @@ export interface Home {
 
 ### 3. Update the Home Card Component
 
-#### Update home-card.component.ts
+#### Update home-
+card.component.ts
 
 ```typescript
 import { Component, Input } from "@angular/core";
